@@ -1,0 +1,16 @@
+<head>
+  <title>socket-test</title>
+</head>
+
+<body>
+</body>
+
+<template name="home">
+  <h1>Welcome to Socket Testing!!</h1>
+  <h2>The last 20 commands received are:</h2>
+    {{log this}}
+  {{#each this}}
+    <div class="message">[{{timestamp}}] ID: '{{teamId}}' MSG: '{{message}}'</div>
+
+  {{/each}}
+</template>

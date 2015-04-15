@@ -1,0 +1,21 @@
+/* CSS declarations go here */
+
+@font-face {
+    font-family: 'Input';
+    src: url('Input-Bold_(InputSans-Bold).ttf');
+}
+
+body {
+    background-color: #000000;
+}
+
+h1, h2 {
+    color: white;
+}
+
+.message {
+    color: #24D93E;
+    font-family: 'Input';
+    line-height: 1.8em;
+    margin: 0 40px;
+}
